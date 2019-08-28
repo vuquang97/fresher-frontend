@@ -1,0 +1,117 @@
+.container {
+  width: 80%;
+  margin: auto;
+  background: lightgray;
+  padding: 30px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.board {
+  width: 60%;
+  margin: auto;
+  background-color: white;
+  overflow: hidden;
+}
+
+.add-item {
+  width: 100%;
+  display: flex;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.item {
+  width: 100%;
+  display: flex;
+  margin: auto;
+  padding: 5px;
+  border-bottom: 1px solid gray;
+  /* margin-top: 30px; */
+  height: 50px;
+  line-height: 50px;
+}
+
+.list-item {
+  margin-top: 40px;
+}
+
+.list-item .item:nth-child(odd) {
+  border-left: 10px solid blue;
+}
+
+.list-item .item:nth-child(even) {
+  border-left: 10px solid orange;
+}
+
+.list-item .item:last-child {
+  border-bottom: none;
+}
+
+.input-item {
+  flex-basis: 75%;
+  height: 40px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid gray;
+  margin: 0 20px; 
+
+}
+
+
+.text-item {
+  flex-basis: 75%;
+  height: 30px;
+  border-radius: 5px;
+  margin: 0 20px; 
+}
+
+.item:hover {
+  border-left: 5px solid green;
+}
+
+input {
+  flex-basis: 75%;
+  height: 30px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid gray;
+  margin: 0 20px; 
+}
+
+button {
+  width: 15%;
+  height: 35px;
+  background-color: orangered;
+  border: 1px solid gray;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+.luu {
+  width: 100px;
+  height: 40px;
+  background-color: orangered;
+  border: 1px solid gray;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: lightsalmon;
+  cursor: pointer;
+}
+
+.sua:hover {
+  color: green;
+  cursor: pointer;
+}
+
+.xoa:hover {
+  color: red;
+  cursor: pointer;
+}
